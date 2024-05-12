@@ -23,7 +23,7 @@ class instagramBot:
         self.password = password
         self.hashtag_procurar = hashtag_procurar
         self.verificacaoCodigo = verificacaoCodigo
-        self.driver = webdriver.Firefox(executable_path="/Users/foliveira/github/python/instagrambot/geckodriver") #caminho de onde está a biblioteca geckodriver
+        self.driver = webdriver.Firefox(executable_path="/Users/tripa/Documents/GitHub/python_social_media/instagrambot/geckodriver") #caminho de onde está a biblioteca geckodriver
 
     def login(self):
         driver = self.driver
